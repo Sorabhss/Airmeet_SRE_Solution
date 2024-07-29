@@ -1,0 +1,16 @@
+Authentication and Authorization:
+    1.Implement token-based authentication using JWT.
+    2.Add role-based access control (RBAC) to restrict access to certain routes.
+
+Monitoring
+    1.Use Prometheus for metrics and Grafana for visualization.
+
+Monitor:
+    1.API response times and error rates.
+    2.Database query performance.
+    3.Container health and resource usage.
+
+Stateful Considerations:
+    1.Ensure database transactions are ACID-compliant.
+    2.Implement session management for user authentication.
+    3.Use distributed caching (e.g., Redis) for scalability.
